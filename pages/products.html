@@ -40,31 +40,43 @@
             word-spacing: 10%;
         }
         .products{
-            display: flex; 
-            flex-wrap: flex ;
+            background-color: white;
+            border-radius: 5px;
         }
-
+       
         .products-1{
-            /* display: flex; */
-            /* flex-direction: row; */
             align-items: center;
-            margin: 20px 80px;
-            background-color: #f5e6e6;
-            padding: 20px;
+            margin: 50px 50px;
+            background-color: #a4f8a4;
+            padding: 10px;
+            display: flex;
+            gap: 20px;
+            
         }
         .products-heading{
             text-align: center;  
+            line-height: 50px ;
         }
         .Products-img{
-            max-width: 100%;
-            padding-left: 20px;
+            width: 50%;
+            padding-left: 5px;
+            border-radius: 10px;
         }
+
+        .Products-img img{
+            width: 100%;
+        }
+
         .Products-text {
-            /* flex: 2;
-            font-family: Arial, sans-serif;
-            color: #333;
-            padding-left: 20px;
-        } */
+            flex: 2;
+            font-family: cursive;
+            font-size: 22px;
+            /* padding: 20px; */
+            word-spacing: 10pt ;
+            text-align: justify;
+            line-height: 35px;
+
+        }
         h1{text-align: center;}
     
     </style>
@@ -73,6 +85,7 @@
     <nav>
         <ul>
             <li class="home"><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About Us</a></li>
             <li class="products"><a href="products.html">Products</a></li>
             <li><a href="../pages/contact.html">Contact Us</a></li>
             <li><a href="../pages/login.html">Log In</a></li>
@@ -81,61 +94,95 @@
     </nav> 
     <img src="../images/Feeding-Hopes-Feeding-Futures-logo.jpg" alt="food for all logo" width="100%">
 
-    <!-- <div class="products"> -->
+    <div class="products-page">
 
         <div class="products-1">
-            <h1 class="products-heading">Food Donation</h1>
-            <div class="Products-text"> We collect surplus food from partners and distribute to marginalized communities, addressing food insecurity and reducing waste. We've donated over 100,000 meals to date, aiming to double our impact this year.</div>
-            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
+                
+            <div class="Products-text"> 
+                <h1 class="products-heading">Food Donation</h1>
+                We collect surplus food from partners and distribute to marginalized communities, addressing food insecurity and reducing waste. We've donated over 100,000 meals to date, aiming to double our impact this year. <br> Do you know any needy individual or community we can help by donating food to ? <br> <b>Click <a href="">here</a> to request for food supply.</b>
+            </div>
+            <div class="Products-img"> <img src="../images/donation.jpeg" alt=""> </div>
+            
+        </div>
+
+
+        <div class="products-1">
+
+            <div class="Products-img"> <img src="../images/farmm.jpeg" alt=""> </div>
+            <div class="Products-text"> 
+                <h1 class="products-heading">Farming And Food Production</h1>
+                We promote sustainable agriculture practices, supporting local farmers and producing fresh, healthy food. Our organic farms prioritize biodiversity, efficient water use, and soil conservation, ensuring a healthier future.
+            </div>
+            
             
         </div>
 
         <div class="products-1">
-            <h1>Farming And Food Production</h1>
-            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
-            <div class="Products-text">We promote sustainable agriculture practices, supporting local farmers and producing fresh, healthy food. Our organic farms prioritize biodiversity, efficient water use, and soil conservation, ensuring a healthier future.</div>
+                
+            <div class="Products-text"> 
+                <h1 class="products-heading">Nutrition Education</h1>
+                Our programs educate communities on healthy eating habits, meal planning, and food preparation. We empower individuals to make informed choices, promoting a culture of nutrition and wellness.
+            </div>
+            <div class="Products-img"> <img src="../images/nutrition education.jpeg" alt=""> </div>
+            
+        </div>
+
+        
+        <div class="products-1">
+
+            <div class="Products-img"> <img src="../images/food safety 1.jpeg" alt=""> </div>
+            <div class="Products-text"> 
+                <h1 class="products-heading">Food Safety Programs</h1>
+                We provide training and certification programs for food handlers, ensuring they understand proper food safety practices, reducing the risk of foodborne illnesses. Our training is interactive and practical.
+            </div>
+            
+            
         </div>
 
         <div class="products-1">
-            <h1>Nutrition Education</h1>
-            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
-            <div class="Products-text"> Our programs educate communities on healthy eating habits, meal planning, and food preparation. We empower individuals to make informed choices, promoting a culture of nutrition and wellness.</div>
+                
+            <div class="Products-text"> 
+                <h1 class="products-heading">Nutrition Education</h1>
+                Our programs educate communities on healthy eating habits, meal planning, and food preparation. We empower individuals to make informed choices, promoting a culture of nutrition and wellness.
+            </div>
+            <div class="Products-img"> <img src="../images/nutrition education 2.jpeg" alt=""> </div>
+            
         </div>
 
         <div class="products-1">
-            <h1>Food Safety Programs</h1>
-            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
-            <div class="Products-text"> We provide training and certification programs for food handlers, ensuring they understand proper food safety practices, reducing the risk of foodborne illnesses. Our training is interactive and practical.</div>
+
+            <div class="Products-img"> <img src="../images/food supplement donation.jpg" alt=""> </div>
+            <div class="Products-text"> 
+                <h1 class="products-heading">Provision Of Nutrition Supplements</h1>
+                We provide high-quality food supplements to support your health and wellbeing. Our range includes multivitamins, protein powder, omega-3 fatty acids, and probiotics. Our supplements are made from finest ingredients, manufactured with strict quality control, and priced affordably. Nourish your body with our reliable food supplements.
+
+            </div>
+            
+            
+        </div>
+        <div class="products-1">
+                
+            <div class="Products-text"> 
+                <h1 class="products-heading">Community Garden Initiatives</h1>
+                At Food 4 All, we believe in cultivating healthy communities through sustainable gardening practices. Our community garden initiatives aim to:
+                Provide access to fresh, organic produce, Promote food security and sovereignty, Foster community engagement and education, Support environmental stewardship
+            </div>
+            <div class="Products-img"> <img src="../images/community garden 3.jpeg" alt=""> </div>
+            
         </div>
 
-        <div class="products-1">
-            <h1>Provision Of Food Supplements</h1>
-            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
-            <div class="Products-text"> We offer nutrition supplements, such as vitamins and minerals, to support individuals with specific dietary needs.</div>
-        </div>
-        <div class="products-1">
-            <h1>Community Garden Inititives </h1>
-            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
-            <div class="Products-text"> We offer nutrition supplements, such as vitamins and minerals, to support individuals with specific dietary needs.</div>
-        </div>
-    </div>
 
        
 
-
-    <div class="big-div">
-        <div class="small-div"> <img src="" alt=""> </div>
-    </div>
-    <p></p>
-    <h2>Newsletter</h2>
-    <form action="">
-        <label for="">Email</label>
-        <input type="email">
-    </form>
     <hr>
 
     </body>
-    <footer> <i class="fa-brands fa-whatsapp"></i> +233 000 111 222 <br><i class="fa-solid fa-envelope"></i>  customerservice@foodforall  
-        <br> <i class="fa-solid fa-location-pin"></i>NO- 4 Mango Street Accra,Ghana </footer>
+    <footer> 
+        <i class="fa-brands fa-whatsapp"></i> +233 000 111 222 
+        <br>
+        <i class="fa-solid fa-envelope"></i>  customerservice@foodforall  
+        <br> <i class="fa-solid fa-location-pin"></i>NO- 4 Mango Street Accra,Ghana 
+    </footer>
 </body>
 </html>
