@@ -6,43 +6,116 @@
     <title>Home Page</title>
     <script src="https://kit.fontawesome.com/5bf86c59db.js" crossorigin="anonymous"></script>
     <style>
+       h6 {
+            background-color: rgb(140, 231, 143);
+        }
+        .who-we-are {
+            text-align: center;
+            word-spacing: 50pt;
+        }
+        h5 {
+            text-align: center;
+            font-size: 20px;
+            word-spacing: 50px;
+            background-color: rgb(115, 243, 98);
+            color: white;
+        }
+        .who_we_are_ {
+            font-size: larger;
+            font-family: cursive;
+            word-spacing: 15px;
+            color: green;
+            border: 3px;
+            border-color: green;
+            word-spacing: 20px;
+        }
+        .what-we-do {
+            text-align: center;
+            word-spacing: 50pt;
+        }
+        .enter-button {
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            background-color: rgb(7, 99, 7);
+            color: white;
+            word-spacing: 10%;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            background-color: #4CAF50;
+            overflow: hidden;
+            margin: 0;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-family: cursive;
+        }
+        nav li a:hover {
+            background-color: #45a049;
+        }
         
-        h6{background-color: rgb(140, 231, 143);}
-        .who-we-are{text-align: center; word-spacing: 10%;}
-        h5{text-align: center; font-size: 20px; background-color:rgb(115, 243, 98);color: white;}
-    .who_we_are_{font-size: larger; font-family: cursive; word-spacing: 15px; color: green; border: 3px; border-color: green;}
-        .what-we-do{text-align: center;word-spacing: 10%;}
-        .enter-button{text-align: center;}
-        footer{text-align: center; background-color:rgb(7, 99, 7); color:white; word-spacing: 10%;}
-            .nav{ background-color: chartreuse; display: flex; justify-content: space-between; font-size: xx-large; font-family: cursive;}
-            .home{background-color: white;}
-            .gen{display: flex; flex-wrap: wrap; justify-content: space-between; text-align: center; width: 300px; height: 300px;}
-            .text{font-family: cursive;   border: 3px solid black;}
-            .img{width: 300px; height: 300px;}
+        .home {
+            background-color: white;
+            border-radius: 5px;
+        }
+        .gen {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .text {
+            font-family: cursive;
+            background-color: greenyellow;
+            text-align: center;
+            border: 5px solid black;
+            width: 400px;
+            height: 400px;
+            margin-bottom: 10px;
+        }
+        .img {
+            width: 400px;
+            height: 350px;
+        }
+        .what-we-do-container {
+            display: flex;
+            justify-content: space-around; 
+            flex-wrap: wrap;
+            
+        }
+        button{
+            padding:20pt; 
+            background-color:rgb(3, 182, 3); 
+            font-size: x-large ; 
+            font-family: cursive;
+            color: white;
+         }
+
+        .button{display: flex; justify-content:center ; border-radius: 5pt;}
+        .home{font-family: cursive; border-radius: 10px;}
+        .newsletter{background-color:green;}
     </style>
 </head>
 <body>
     <nav>
-        <div class="nav">
-            
-            <div>
-                <div class="home"><a href="index.html">Home</a></div> 
-                <div><a href="../Homework6_redo/pages/aboutus.html">About Us</a></div>
-            </div>
-            <div>
-                <div><a href="../Homework6_redo/pages/products.html">Products</a></div> 
-                <div><a href="../Homework6_redo/pages/signup.html">Sign Up</a></div>
-            </div>
-            <div>
-                <div><a href="../Homework6_redo/pages/contact.html">Contact Us</a></div> 
-                <div><a href="../Homework6_redo/pages/login.html">Log In</a></div>
-            </div>
-
-        </div>
-    </nav>
-
-    <h6>This is the Home Page</h6>
-   
+        <ul>
+            <li class="home"><a href="index.html">Home</a></li>
+            <li><a href="../Homework6_redo/pages/products.html">Products</a></li>
+            <li><a href="../Homework6_redo/pages/contact.html">Contact Us</a></li>
+            <li><a href="../Homework6_redo/pages/login.html">Log In</a></li>
+            <li><a href="../Homework6_redo/pages/signup.html">Sign Up</a></li>
+        </ul>
+    </nav> 
      <img src="images/Feeding-Hopes-Feeding-Futures-logo.jpg" alt="food for all logo" width="100%">
    
     
@@ -56,27 +129,64 @@
 
     <p><h2 class="what-we-do">What We Do</h2></p>
 
-    <div class="gen">
+    <div class="what-we-do-container">
+
         <div class="border">
             <div class="text">
-                <div class="img"> <img src="../Homework6_redo/images/women-in-farming.jpg" alt=""></div>
+                <div class="img"><img src="../Homework6_redo/images/food-donation.jpg" alt="" width="400px" height="350px"></div>
+                <h3>Food Donation</h3>
+            </div>
+        </div>
+
+        <div class="border">
+            <div class="text">
+                <div class="img"><img src="../Homework6_redo/images/nutrition-image.jpg" alt="" width="400px" height="350px"></div>
+                <h3>Nutrition Education</h3>
+            </div>
+        </div>
+
+        <div class="border">
+            <div class="text">
+                <div class="img"><img src="../Homework6_redo/images/women-in-farming.jpg" alt="" width="400px" height="350px"></div>
                 <h3>Farming And Food Production</h3>
             </div>
+        </div>
 
-            <div class="border">
-                <div class="text">
-                    <div class="img"> <img src="../Homework6_redo/images/food-donation.jpg" alt=""></div>
-                    <h3>Food Donation</h3>
-                </div>
+        <div class="border">
+            <div class="text">
+                <div class="img"><img src="../Homework6_redo/images/community-education.jpg" alt="" width="400px" height="350px"></div>
+                <h3>Food Safety Training</h3>
+            </div>
+        </div>
 
-                <div class="border">
-                    <div class="text">
-                        <div class="img"> <img src="../Homework6_redo/images/women-in-farming.jpg" alt=""></div>
-                        <h3>Farming And Food Production</h3>
-                    </div>
+        <div class="border">
+            <div class="text">
+                <div class="img"><img src="../Homework6_redo/images/nutition Supplement.jpeg"alt="" width="400px" height="350px"></div>
+                <h3>Provision Of Nutition Supplements</h3>
+            </div>
+        </div>
+
+        <div class="border">
+            <div class="text">
+                <div class="img"><img src="../Homework6_redo/images/community-garden.jpg"alt="" width="400px" height="350px"></div>
+                <h3>Community Garden Inititive</h3>
+            </div>
+        </div>
 
     </div>
 
+    <div class="button">
+        <button><a href="../Homework6_redo/pages/products.html">Read More About Our Products</a></button>
+    </div>
+
+    <div class="newletter">
+        <div class="newsletter-text"> 
+            <h1>Newletter</h1>
+            <h6>Would you like to recieve monthly updates from us on</h6>
+         </div>
+         <div class="newletter-placeholder"></div>
+        
+    </div>
 
 <p>Newsletter
 <label for="Email">Email</label>

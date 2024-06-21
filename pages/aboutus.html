@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/5bf86c59db.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            background-color: #4CAF50;
+            overflow: hidden;
+            margin: 0;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #45a049;
+        }
+        .nav {
+            background-color: chartreuse;
+            display: flex;
+            justify-content: space-between;
+            font-size: xx-large;
+            font-family: cursive;
+        }
+        h6 {
+            background-color: rgb(140, 231, 143);
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+        }
+        .logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .contact-title {
+            font-size: xx-large;
+            text-align: center;
+            background-color: rgb(4, 167, 4);
+            color: white;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-container div {
+            margin-bottom: 15px;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container textarea {
+            resize: none;
+        }
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(85, 240, 85);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: rgb(75, 220, 75);
+        }
+        footer {
+            text-align: center;
+            background-color: rgb(7, 99, 7);
+            color: white;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            
+            <div>
+                <div class="home"><a href="index.html">Home</a></div> 
+                <div><a href="../Homework6_redo/pages/aboutus.html">About Us</a></div>
+            </div>
+            <div>
+                <div><a href="../Homework6_redo/pages/products.html">Products</a></div> 
+                <div><a href="../Homework6_redo/pages/signup.html">Sign Up</a></div>
+            </div>
+            <div>
+                <div><a href="../Homework6_redo/pages/contact.html">Contact Us</a></div> 
+                <div><a href="../Homework6_redo/pages/login.html">Log In</a></div>
+            </div>
+
+        </div>
+    </nav>
+    <div class="logo">
+        <img src="../images/Feeding-Hopes-Feeding-Futures-logo.jpg" alt="food for all logo" width="100%">
+    </div>
+    <div class="contact-title">CONTACT US</div>
+    <div class="form-container">
+        <h3>Contact Form</h3>
+        <form action="">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Full Name">
+            </div> 
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email Address">
+            </div> 
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="5" placeholder="Type your message here"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <hr>
+    <footer>
+        <i class="fa-brands fa-whatsapp"></i> +233 000 111 222 <br>
+        <i class="fa-solid fa-envelope"></i> customerservice@foodforall<br>
+        <i class="fa-solid fa-location-pin"></i> NO-4 Mango Street Accra, Ghana
+    </footer>
+</body>
+</html>

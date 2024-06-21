@@ -6,72 +6,122 @@
     <title>Products Page</title>
     <script src="https://kit.fontawesome.com/5bf86c59db.js" crossorigin="anonymous"></script>
     <style>
-        nav{display: flex; flex-wrap: wrap;}
-         h6{background-color: rgb(140, 231, 143);}
-        h3{text-align: center;}
-        footer{text-align: center; background-color:rgb(7, 99, 7); color:white; word-spacing: 10%;}
-        ol{text-align: center; text-transform: capitalize; word-spacing: 10%;}
-        p{font-style: unset;} 
-        .women{border-radius:5px; 
-            border: 10px solid ;
-        border-color:rgb(5, 172, 5);}
-        .women2{border-radius:5px; 
-            border: 10px solid ;
-        border-color:yellow;}
-        .donation{border-radius:5px; 
-            border: 10px solid ;
-        border-color:rgb(44, 245, 25);}
-        .donation2{border-radius:5px; 
-            border: 10px solid ;
-        border-color:yellow;}
-        .comm{border-radius:5px; 
-            border: 10px solid ;
-        border-color:rgb(5, 172, 5);}
-        .comm2{border-radius:5px; 
-            border: 10px solid ;
-        border-color:yellow;}
-        .nutri{border-radius:5px; 
-            border: 10px solid ;
-        border-color:rgb(44, 245, 25);}
-        .nutri2{border-radius:5px; 
-            border: 10px solid ;
-        border-color:yellow}
+           nav ul {
+            list-style-type: none;
+            padding: 0;
+            background-color: #4CAF50;
+            overflow: hidden;
+            margin: 0;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-family: cursive;
+        }
+        nav li a:hover {
+            background-color: #45a049;
+        }
+         h6{
+            background-color: rgb(140, 231, 143);
+        }
+        h3{
+            text-align: center;
+        }
+        footer{
+            text-align: center; 
+            background-color:rgb(7, 99, 7); 
+            color:white; 
+            word-spacing: 10%;
+        }
+        .products{
+            display: flex; 
+            flex-wrap: flex ;
+        }
+
+        .products-1{
+            /* display: flex; */
+            /* flex-direction: row; */
+            align-items: center;
+            margin: 20px 80px;
+            background-color: #f5e6e6;
+            padding: 20px;
+        }
+        .products-heading{
+            text-align: center;  
+        }
+        .Products-img{
+            max-width: 100%;
+            padding-left: 20px;
+        }
+        .Products-text {
+            /* flex: 2;
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding-left: 20px;
+        } */
+        h1{text-align: center;}
+    
     </style>
 </head>
 <body> 
-    <div class="nav">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="../pages/contact.html">Contact Us</a></li>
-                <li><a href="../pages/login.html">Log In</a></li>
-                <li><a href="../pages/signup.html">Sign Up</a></li>
-            </ul>
-        </nav>
-    </div>
-    
-    <h6>This is the Home Page</h6>
-
+    <nav>
+        <ul>
+            <li class="home"><a href="../index.html">Home</a></li>
+            <li class="products"><a href="products.html">Products</a></li>
+            <li><a href="../pages/contact.html">Contact Us</a></li>
+            <li><a href="../pages/login.html">Log In</a></li>
+            <li><a href="../pages/signup.html">Sign Up</a></li>
+        </ul>
+    </nav> 
     <img src="../images/Feeding-Hopes-Feeding-Futures-logo.jpg" alt="food for all logo" width="100%">
 
-    <ol><h1><li>Farming and food prodution</li></h1>
-            <img class="women" src="../images/women-in-farming.jpg" alt="women in a farm" width="45%" height="250px">
-            <img class="women2" src="../images/women-in-farming2.jpg" alt="women with farm produce" width="45%" height="250px">
-            <p></p>
-        <h1><li>Food Donation</li></h1>
-        <img class="donation" src="../images/fresh food donation.jpg" alt="Food donation" width="45%" height="250px">
-        <img class="donation2" src="../images/fresh-food.jpg" alt="food Donation"width="45%" height="250px">
-        <p></p>
-    <h1><li>Community garden initiatives and urban agriculture projects</li></h1>
-    <img class="comm" src="../images/fresh-farm-foods2.webp" alt="Community garden" width="45%" height="250px">
-    <img class="comm2" src="../images/community-garden.jpg" alt="community garden" width="45%" height="250px">
-    <p></p>
-    <h1><li>Nutrition education and cooking classes</li></h1>
-    <img class="nutri" src="../images/community-education.jpg" alt="education on nutition" width="45%" height="250px">
-    <img class="nutri2" src="../images/nutrition-image.jpg" alt="nutritious foods" width="45%" height="250px">
-    <p></p>
-    </ol>
+    <!-- <div class="products"> -->
+
+        <div class="products-1">
+            <h1 class="products-heading">Food Donation</h1>
+            <div class="Products-text"> We collect surplus food from partners and distribute to marginalized communities, addressing food insecurity and reducing waste. We've donated over 100,000 meals to date, aiming to double our impact this year.</div>
+            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
+            
+        </div>
+
+        <div class="products-1">
+            <h1>Farming And Food Production</h1>
+            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
+            <div class="Products-text">We promote sustainable agriculture practices, supporting local farmers and producing fresh, healthy food. Our organic farms prioritize biodiversity, efficient water use, and soil conservation, ensuring a healthier future.</div>
+        </div>
+
+        <div class="products-1">
+            <h1>Nutrition Education</h1>
+            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
+            <div class="Products-text"> Our programs educate communities on healthy eating habits, meal planning, and food preparation. We empower individuals to make informed choices, promoting a culture of nutrition and wellness.</div>
+        </div>
+
+        <div class="products-1">
+            <h1>Food Safety Programs</h1>
+            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
+            <div class="Products-text"> We provide training and certification programs for food handlers, ensuring they understand proper food safety practices, reducing the risk of foodborne illnesses. Our training is interactive and practical.</div>
+        </div>
+
+        <div class="products-1">
+            <h1>Provision Of Food Supplements</h1>
+            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
+            <div class="Products-text"> We offer nutrition supplements, such as vitamins and minerals, to support individuals with specific dietary needs.</div>
+        </div>
+        <div class="products-1">
+            <h1>Community Garden Inititives </h1>
+            <div class="Products-img"> <img src="../images/farm.jpeg" alt=""></div>
+            <div class="Products-text"> We offer nutrition supplements, such as vitamins and minerals, to support individuals with specific dietary needs.</div>
+        </div>
+    </div>
+
+       
+
 
     <div class="big-div">
         <div class="small-div"> <img src="" alt=""> </div>
