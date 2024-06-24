@@ -33,6 +33,54 @@
             background-color: #45a049;
         }
         .signup{background-color: white; border-radius: 10px;}
+
+        .contact-title {
+            font-size: xx-large;
+            text-align: center;
+            background-color: rgb(4, 167, 4);
+            color: white;
+            /* padding: 10px; */
+            margin: 20px 20px;
+            align-items: center;
+            /* margin: 20px 20px; */
+        }
+        .form-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(139, 226, 139);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-container div {
+            margin-bottom: 15px;
+            padding: 10px;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            border: 3px solid white;
+            border-radius: 5px;
+        }
+       
+        .form-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(85, 240, 85);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: rgb(75, 220, 75);}
+            h3{text-align: center;}
     </style>
 </head>
 <body>
@@ -48,35 +96,46 @@
     </nav> 
     <img src="../images/Feeding-Hopes-Feeding-Futures-logo.jpg" alt="food for all logo" width="100%">
 <br>
-<p>Join The Food For All Movement. Register Here 👇<p>
-    <form action="">
-        <div>
-         <label for=" Name">Your Name</label>
-         <input type="Name" name="" id="" placeholder="Full Name">
-     </div> 
-     <p></p>
-     <div>
-         <label for=" Email">Email</label>
-     <input type="Email" name="" id="" placeholder="Your email">
-     </div>
-     <P></P>
-     <div>
-         <label for=" Phone number">Number</label>
-         <input type="Telephone" name="" id="" placeholder="Phone Number">
-     </div>
-     <p></p>
-     <div>
-         <label for="Password">Enter Password</label>
-         <input type="Password" name="" id="" placeholder="Create Password"> 
-     </div>
-     <p></p>
-     <div>
-         <label for="Password">Re-Enter Password</label>
-         <input type="Password" name="" id="" placeholder="Confirm Password"> 
-     </div>
-     </form>
-     <p></p>
-     <button>Submit</button>
+<p>Join The Food For All Movement. <p>
+    <div class="contact-title">Register Here 👇</div>
+    <div class="form-container">
+        <h3>Please Provide Personal Details</h3>
+        <form action="">
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Full Name">
+            </div> 
+
+            <div>
+                <label for="number">Phone Number</label>
+                <input type="email" id="email" placeholder="Email Address">
+            </div> 
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email Address">
+            </div> 
+
+            <div>
+                <label for="email">Address</label>
+                <input type="email" id="email" placeholder="Country & Region">
+            </div> 
+            <div>
+                <label for="message">Bio / About</label>
+                <textarea id="message" cols="30" rows="5" placeholder="Briefly Tell Us About Yourself And Reason Joining The Movement"></textarea>
+            </div>
+            <div>
+                <label for="email">Password</label>
+                <input type="email" id="email" placeholder="Create A Password">
+            </div> 
+
+            <div>
+                <label for="email">Confirm Password</label>
+                <input type="email" id="email" placeholder="Re-Enter Password">
+            </div> 
+            <button type="register">Register</button>
+        </form>
+    </div>
     <hr> 
     <footer> <i class="fa-brands fa-whatsapp"></i> +233 000 111 222 <br><i class="fa-solid fa-envelope"></i>  customerservice@foodforall  
         <br> <i class="fa-solid fa-location-pin"></i>NO- 4 Mango Street Accra,Ghana </footer>
