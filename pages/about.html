@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>About Us Page</title>
     <script src="https://kit.fontawesome.com/5bf86c59db.js" crossorigin="anonymous"></script>
     <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
        h6 {
             background-color: rgb(140, 231, 143);
         }
@@ -63,6 +69,10 @@
         nav li a:hover {
             background-color: #45a049;
         }
+
+        nav{
+            margin-bottom: 10px;
+        }
         
         .about {
             background-color: white;
@@ -93,19 +103,36 @@
             flex-wrap: wrap;
             
         }
-        button{
-            padding:20pt; 
-            background-color:rgb(3, 182, 3); 
-            font-size: x-large ; 
+        
+        .About-Page{
+            align-items: center;
+            margin: 50px 50px;
+            background-color: #a4f8a4;
+            padding: 10px;
+            display: flex;
+            gap: 20px;
+            border-radius: 10px;
+            
+        }
+        .About-text{ 
+            width: 70%;
+            padding-left: 5px;
+            border-radius: 10px;
             font-family: cursive;
-            color: white;
-         }
+            line-height: 50px;
+            font-size: 20pt;
+        }
 
-         .button{display: flex; justify-content:center ; border-radius: 5pt;}
-        .home{font-family: cursive; border-radius: 10px;}
-         .newsletter-big-container{}
-        .newsletter{background-color:green; margin: 100px 100px; 
-            border-radius:10px; text-align:center;}
+        .About-heading h1{
+            /* flex: 2; */
+            font-family: cursive;
+            /* text-align: justify; */
+            line-height: 70px;
+            font-size: 50px;
+        }
+
+        .about{font-family: cursive; border-radius: 10px;}
+
     </style>
 </head>
 <body>
@@ -122,84 +149,46 @@
         </ul>
     </nav> 
      <img src="../images/Feeding-Hopes-Feeding-Futures-logo.jpg" alt="food for all logo" width="100%">
+
+     <div class="About-Page">
+
+        <div class="About-heading"> <h1>About Us </h1> </div>
+        <div class="About-text"> 
+            
+            Food 4 All is a non-governmental organization (NGO) dedicated to combating hunger and food insecurity in Ghana. 
+            We strive to create a sustainable food system that ensures everyone has access to nutritious food, 
+            regardless of their background or socioeconomic status.
+        </div>
+        
+        
+    </div>
+    
+    <div class="About-Page">
+
+        <div class="About-text"> 
+            <ul>
+                <li>Provide food assistance to vulnerable communities, including children, women, and the elderly</li>
+                <li>Support sustainable agriculture practices and empower small-scale farmers</li>
+                <li>Educate communities on food nutrition, security, and sustainability</li>
+                <li>Advocate for policies that address the root causes of hunger and food insecurity</li>
+                </ul> 
+        </div>
+        <div class="About-heading"> <h1>Mission Statement</h1> </div>
+        
+    </div>
    
     
-    <h2 class="who-we-are">Who We Are</h2>
+    <div class="About-Page">
+        <div class="About-heading"> <h1>Vision Statement</h1> </div>
 
-    <p class="who_we_are_">Food for All is a community-driven organization dedicated to providing access to nutritious food for everyone. 
-        We believe that food is a fundamental right, not a privilege. Our mission is to bridge the gap between food 
-        waste and hunger, serving those in need with dignity and respect. Through our efforts, 
-        we aim to feed not only the body, but also the hope and potential of our community. 
-        Join us in our journey to feed hopes and feed futures, building a hunger-free community for all."</p>
-
-    <p><h2 class="what-we-do">What We Do</h2></p>
-
-    <div class="what-we-do-container">
-
-        <div class="border">
-            <div class="text">
-                <div class="img"><img src="images/food-donation.jpg" alt="" width="400px" height="350px"></div>
-                <h3>Food Donation</h3>
-            </div>
+        <div class="About-text"> 
+            Food for All is a community-driven organization dedicated to providing access to nutritious food for everyone. 
+            We believe that food is a fundamental right, not a privilege. Our mission is to bridge the gap between food 
+            waste and hunger, serving those in need with dignity and respect. Through our efforts, 
+            we aim to feed not only the body, but also the hope and potential of our community. 
+            Join us in our journey to feed hopes and feed futures, building a hunger-free community for all.
         </div>
-
-        <div class="border">
-            <div class="text">
-                <div class="img"><img src="images/nutrition-image.jpg" alt="" width="400px" height="350px"></div>
-                <h3>Nutrition Education</h3>
-            </div>
-        </div>
-
-        <div class="border">
-            <div class="text">
-                <div class="img"><img src="images/women-in-farming.jpg" alt="" width="400px" height="350px"></div>
-                <h3>Farming And Food Production</h3>
-            </div>
-        </div>
-
-        <div class="border">
-            <div class="text">
-                <div class="img"><img src="images/community-education.jpg" alt="" width="400px" height="350px"></div>
-                <h3>Food Safety Training</h3>
-            </div>
-        </div>
-
-        <div class="border">
-            <div class="text">
-                <div class="img"><img src="images/nutition Supplement.jpeg"alt="" width="400px" height="350px"></div>
-                <h3>Provision Of Nutition Supplements</h3>
-            </div>
-        </div>
-
-        <div class="border">
-            <div class="text">
-                <div class="img"><img src="images/community-garden.jpg"alt="" width="400px" height="350px"></div>
-                <h3>Community Garden Inititive</h3>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="button">
-        <button><a href="../Homework6_redo/pages/products.html">Read More About Our Products</a></button>
-    </div>
-
-    <div class="newsletter-big-container">
-        <div class="newsletter"> 
-            <div class="newsletter-text"><h1>Newsletter</h1>
-                Would you like to recieve monthly updates from us? </div>
-                <div>
-                    <form action="">
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="Email Address" >
-                        </div> 
-                    </form>
-                </div>
-            
-            
-         </div>
-         
+        
         
     </div>
 
