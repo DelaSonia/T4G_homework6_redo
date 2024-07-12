@@ -7,48 +7,50 @@
     <script src="https://kit.fontawesome.com/5bf86c59db.js" crossorigin="anonymous"></script>
     <style>
          body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
+            background-color: rgb(100, 245, 100);
+            margin: 5;
+            padding: 5;
+            font-family: cursive;
         }
-       h6 {
-            background-color: rgb(140, 231, 143);
+        .headings{
+            font-size: 50px;
+            font-stretch: expanded;
+            text-align: center;
         }
         .who-we-are {
             text-align: center;
             word-spacing: 50pt;
-        }
-        h5 {
-            text-align: center;
-            font-size: 20px;
-            word-spacing: 50px;
-            background-color: rgb(115, 243, 98);
-            color: white;
+            line-height: 100;
         }
         .who_we_are_ {
-            font-size: larger;
+           font-size: 30px;
             font-family: cursive;
-            word-spacing: 15px;
-            color: green;
-            border: 3px;
-            border-color: green;
-            word-spacing: 20px;
+            word-spacing: 25px;
+            line-height: 50px;
+            padding: 10px;
         }
         .what-we-do {
             text-align: center;
             word-spacing: 50pt;
         }
-        .enter-button {
-            text-align: center;
-        }
+    
         footer {
-            text-align: center;
-            background-color: rgb(7, 99, 7);
-            color: white;
-            word-spacing: 10%;
+            display: flex;
+            justify-content: space-around;
+            
+            padding: 20px 20px;
         }
-        nav ul {
+        .footer1{
+            padding: 20px;
+            background-size: 100px 100px;
+            background-color: rgb(15, 207, 15);
+            border-radius: 50%;
+
+        }
+        .footer-img{border-radius: 30%;
+
+        }
+        nav ul { 
             list-style-type: none;
             padding: 0;
             background-color: #4CAF50;
@@ -74,7 +76,6 @@
         }
         .home {
             background-color: white;
-            border-radius: 5px;
         }
         .gen {
             display: flex;
@@ -84,9 +85,9 @@
         }
         .text {
             font-family: cursive;
-            background-color: greenyellow;
+            background-color: green;
             text-align: center;
-            border: 10px solid black;
+            border: 10px solid green;
             border-radius: 10px;
             width: 400px;
             height: 400px;
@@ -110,12 +111,19 @@
             color: white;
             border-radius: 10px;
             margin-top: 10px;
+            align-items: center;
          }
 
-        .button{display: flex; justify-content:center ; border-radius: 5pt;}
-        .home{font-family: cursive; border-radius: 10px;}
+        .button{
+            display: flex; 
+            justify-content:center;
+        }
+        .home{}
         .newsletter{background-color:green; margin: 100px 100px; 
             border-radius:10px; text-align:center; padding: 10px;}
+        .newsletter-text{font-size: 30px; color: white; margin-bottom: 30px;}
+        .newsletter-textarea{padding: 5px;
+        border-radius: 5px;}
     </style>
 </head>
 <body>
@@ -126,23 +134,23 @@
             <li><a href="pages/products.html">Products</a></li>
             <li><a href="pages/products.html">Contact Us</a></li>
             <li><a href="pages/login.html">Log In</a></li>
-            <li><a href="pages/signup.html">Sign Up</a></li>
-           
-
+            <li><a href="pages/signup.html">Sign Up</a></li> 
         </ul>
     </nav> 
+    <hr>
      <img src="images/Feeding-Hopes-Feeding-Futures-logo.jpg" alt="food for all logo" width="100%">
    
     
-    <h2 class="who-we-are">Who We Are</h2>
+    <p class="headings">Who We Are</p>
 
-    <p class="who_we_are_">Food for All is a community-driven organization dedicated to providing access to nutritious food for everyone. 
+    <p class="who_we_are_">Food for All is a community-driven organization dedicated to providing access to 
+        nutritious food for everyone. 
         We believe that food is a fundamental right, not a privilege. Our mission is to bridge the gap between food 
         waste and hunger, serving those in need with dignity and respect. Through our efforts, 
         we aim to feed not only the body, but also the hope and potential of our community. 
         Join us in our journey to feed hopes and feed futures, building a hunger-free community for all."</p>
 
-    <p><h2 class="what-we-do">What We Do</h2></p>
+    <p class="headings">What We Do</p>
 
     <div class="what-we-do-container">
 
@@ -194,28 +202,50 @@
         <button><a href="../Homework6_redo/pages/products.html">Read More About Our Products</a></button>
     </div>
 
-    <div class="newsletter-big-container">
-        <div class="newsletter"> 
-            <div class="newsletter-text"><h1>Newsletter</h1>
-                Would you like to recieve monthly updates from us? </div>
 
-                <div>
-                    <form action="">
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="email" id="email" placeholder="Email Address" >
-                        </div> 
-                    </form>
-                </div>
+        <div class="newsletter"> 
+            <div class="newsletter-text">
+                Newsletter 
+                <br>
+                Would you like to recieve monthly updates from us? 
+            </div>
+
+                
+        <form action="">
+            <div class="newsletter-textarea">
+            <label for="email">Email</label>
+            <input type="Email" id="Email" placeholder="Email">
+            </div> 
+        </form>
             
             
-         </div>
-         
-        
     </div>
+         
 
    <hr> 
-   <footer> <i class="fa-brands fa-whatsapp"></i> +233 000 111 222 <br><i class="fa-solid fa-envelope"></i>  customerservice@foodforall  
-    <br> <i class="fa-solid fa-location-pin"></i>NO-4 Mango Street Accra,Ghana </footer>
+<footer> 
+
+    <div class="footer1">
+        <a href="https://www.google.com/maps/place/Accra/@5.5915274,-0.3448957,11z/data=!3m1!4b1!4m6!3m5!1s0xfdf9084b2b7a773:0xbed14ed8650e2dd3!8m2!3d5.5592846!4d-0.1974306!16zL20vMGZueWM?authuser=0&entry=ttu"><img class="footer-img" src="images/location.jpeg" alt="" width="80px" height="80px"></a> 
+     </div>
+ 
+    <div class="footer1">
+         <a href="https://web.whatsapp.com/"> <img class="footer-img" src="images/whatsapp.png" alt="" width="80px" height="80px"></a>
+    </div>
+
+    <div class="footer1">
+        <a href="https://mail.google.com/mail/u/0/#inbox"><img class="footer-img" src="images/email.png" alt="" width="80px" height="80px"></a> 
+    </div>
+
+    <div class="footer1">
+        <a href="https://www.instagram.com/"> <img  class="footer-img" src="images/insta.png" alt="" width="80px" height="80px"></a>
+    </div>
+
+    <div class="footer1">
+        <a href="https://x.com/?lang=en"><img class="footer-img" src="images/X_logo.jpg" alt="" width="80px" height="80px"> </a>
+    </div>
+
+    
+</footer>
 </body>
 </html>

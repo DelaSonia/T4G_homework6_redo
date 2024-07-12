@@ -13,8 +13,21 @@
             padding: 0;
         }
 
-       footer{text-align: center; background-color:rgb(7, 99, 7); color:white; word-spacing: 10%;}
-       h2{text-align: center; background-color: rgb(68, 240, 68); color: white; border-radius: 30px;}
+        footer {
+            display: flex;
+            justify-content: space-around;
+            
+            padding: 20px 20px;
+        }
+        .footer1{
+            padding: 20px;
+            background-size: 100px 100px;
+            background-color: rgb(15, 207, 15);
+            border-radius: 50%;
+
+        }
+        .footer-img{border-radius: 30%;}
+
 
        nav ul {
             list-style-type: none;
@@ -40,7 +53,9 @@
         nav{
             margin-bottom: 10px;
         }
-        .signup{background-color: white; border-radius: 10px;}
+        .signup{
+            background-color: white; 
+        }
 
         p{
             font-size: xx-large; 
@@ -65,7 +80,7 @@
             max-width: 700px;
             margin: 0 auto;
             padding: 20px;
-            background-color: rgb(139, 226, 139);
+            background-color: rgb(182, 236, 182);
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-bottom: 10px ;
@@ -126,6 +141,9 @@
             <li class="signup"><a href="signup.html">Sign Up</a></li>
         </ul>
     </nav> 
+
+    <hr>
+
     <img src="../images/Feeding-Hopes-Feeding-Futures-logo.jpg" alt="food for all logo" width="100%">
 
     <div class="contact-title">
@@ -170,15 +188,37 @@
             </div> 
             <button type="register">Register</button>
         </form>
-    </div>
-    <div class="login">
-        <p> Already A Member ? </p>
-        <div class="login-button"><button> <a href="../pages/login.html">Log In</a></button> </div>
+
     </div>
 
     <hr> 
-    <footer> <i class="fa-brands fa-whatsapp"></i> +233 000 111 222 <br><i class="fa-solid fa-envelope"></i>  customerservice@foodforall  
-        <br> <i class="fa-solid fa-location-pin"></i>NO- 4 Mango Street Accra,Ghana </footer>
+
+    
+    <footer> 
+
+        <div class="footer1">
+            <a href="https://www.google.com/maps/place/Accra/@5.5915274,-0.3448957,11z/data=!3m1!4b1!4m6!3m5!1s0xfdf9084b2b7a773:0xbed14ed8650e2dd3!8m2!3d5.5592846!4d-0.1974306!16zL20vMGZueWM?authuser=0&entry=ttu">
+                <img class="footer-img" src="../images/location.jpeg" alt="" width="80px" height="80px"></a> 
+         </div>
+     
+        <div class="footer1">
+            <a href="https://web.whatsapp.com/"><img class="footer-img" src="../images/whatsapp.png" alt="" width="80px" height="80px"></a>
+        </div>
+    
+        <div class="footer1">
+            <a href="https://mail.google.com/mail/u/0/#inbox"><img class="footer-img" src="../images/email.png" alt="" width="80px" height="80px"></a> 
+        </div>
+    
+        <div class="footer1">
+            <a href="https://www.instagram.com/"> <img class="footer-img" src="../images/insta.png" alt="" width="80px" height="80px"></a>
+        </div>
+    
+        <div class="footer1">
+            <a href="https://x.com/?lang=en"><img class="footer-img" src="../images/X_logo.jpg" alt="" width="80px" height="80px"> </a>
+        </div>
+    
+        
+    </footer>
  
  
 </body>
