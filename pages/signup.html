@@ -4,131 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
-    <script src="https://kit.fontawesome.com/5bf86c59db.js" crossorigin="anonymous"></script>
-    <style>
-         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        footer {
-            display: flex;
-            justify-content: space-around;
-            
-            padding: 20px 20px;
-        }
-        .footer1{
-            padding: 20px;
-            background-size: 100px 100px;
-            background-color: rgb(15, 207, 15);
-            border-radius: 50%;
-
-        }
-        .footer-img{border-radius: 30%;}
-
-
-       nav ul {
-            list-style-type: none;
-            padding: 0;
-            background-color: #4CAF50;
-            overflow: hidden;
-            margin: 0;
-        }
-        nav li {
-            float: left;
-        }
-        nav li a {
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-            font-family: cursive;
-        }
-        nav li a:hover {
-            background-color: #45a049;
-        }
-        nav{
-            margin-bottom: 10px;
-        }
-        .signup{
-            background-color: white; 
-        }
-
-        p{
-            font-size: xx-large; 
-            text-align: center; 
-            background-color: rgb(4, 167, 4);
-        }
-
-        .contact-title {
-            font-size: xx-large;
-            text-align: center;
-            background-color: rgb(4, 167, 4);
-            color: white;
-            align-items: center;
-            max-width: 700px;
-            margin: 0 auto;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            
-        }
-        .form-container {
-            max-width: 700px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: rgb(182, 236, 182);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px ;
-        }
-        .form-container div {
-            margin-bottom: 15px;
-            padding: 10px;
-        }
-        .form-container label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .form-container input, .form-container textarea {
-            width: 100%;
-            padding: 10px;
-            border: 3px solid white;
-            border-radius: 5px;
-        }
-       
-        .form-container button {
-            width: 100%;
-            padding: 10px;
-            background-color: rgb(85, 240, 85);
-            border: none;
-            border-radius: 5px;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .form-container button:hover {
-            background-color: rgb(75, 220, 75);}
-
-            h3{
-                text-align: center;
-            }
-        .login{max-width: 700px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: rgb(4, 167, 4);
-            border-radius: 10px;      
-    }  
-    .login:hover{
-        background-color: rgb(75, 220, 75);
-    }
-                 
-
-    </style>
+    <link rel="stylesheet" href="../src/signup.css">
 </head>
 <body>
     <nav>
@@ -151,40 +27,41 @@
         Register Here 👇 
     </div>
 
-    <div class="form-container">
+    <div id="FormContainer">
         <h3>Please Provide Personal Details</h3>
+
         <form action="">
             <div>
                 <label for="name">Your Name</label>
-                <input type="text" id="name" placeholder="Full Name">
+                <input type="text" id="Name" placeholder="Full Name">
             </div> 
 
             <div>
                 <label for="number">Phone Number</label>
-                <input type="email" id="email" placeholder="Email Address">
+                <input type="telephone" id="Number" placeholder="Phone Number">
             </div> 
 
             <div>
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Email Address">
+                <input type="email" id="Email" placeholder="Email Address">
             </div> 
 
             <div>
-                <label for="email">Address</label>
-                <input type="email" id="email" placeholder="Country & Region">
+                <label for="address">Address</label>
+                <input type="address" id="Address" placeholder="Country & Region">
             </div> 
             <div>
-                <label for="message">Bio / About</label>
-                <textarea id="message" cols="30" rows="5" placeholder="Briefly Tell Us About Yourself And Reason Joining The Movement"></textarea>
+                <label for="bio">Bio / About</label>
+                <textarea id="Bio" cols="30" rows="5" placeholder="Briefly Tell Us About Yourself And Reason Joining The Movement"></textarea>
             </div>
             <div>
                 <label for="email">Password</label>
-                <input type="email" id="email" placeholder="Create A Password">
+                <input type="email" id="Password" placeholder="Create A Password">
             </div> 
 
             <div>
                 <label for="email">Confirm Password</label>
-                <input type="email" id="email" placeholder="Re-Enter Password">
+                <input type="email" id="ConfirmPassword" placeholder="Re-Enter Password">
             </div> 
             <button type="register">Register</button>
         </form>
@@ -220,6 +97,6 @@
         
     </footer>
  
- 
+  <script src="../src/signup.js"></script>
 </body>
 </html>
