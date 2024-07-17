@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(100, 245, 100);
+    margin: 5;
+    padding: 5;
+    font-family: cursive;
+}
+nav ul { 
+    list-style-type: none;
+    padding: 0;
+    background-color: #4CAF50;
+    overflow: hidden;
+    margin: 0;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: cursive;
+}
+nav li a:hover {
+    background-color: #45a049;
+}
+nav{
+    margin-bottom: 10px;
+}
+.headings{
+    font-size: 50px;
+    text-align: center;
+    word-spacing: 50pt;
+}
+.who_we_are_ {
+   font-size: 30px;
+    font-family: cursive;
+    word-spacing: 25px;
+    line-height: 50px;
+    padding: 10px;
+}
+.what-we-do {
+    text-align: center;
+    word-spacing: 50pt;
+    font-size: 30pt;
+}
+.text {
+    font-family: cursive;
+    background-color: green;
+    text-align: center;
+    border: 10px solid green;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    font-size: 15pt;
+}
+
+.home {
+    background-color: white;
+}
+.gen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.img {
+    width: 400px;
+    height: 350px;
+}
+.what-we-do-container {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;
+    
+}
+button{
+    padding:10pt; 
+    background-color:rgb(3, 182, 3); 
+    font-size: 20pt; 
+    font-family: cursive;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    align-items: center;   
+ }
+
+.button{
+    display: flex; 
+    justify-content:center;   
+}
+
+.newsletter{background-color:green; margin: 100px 100px; 
+    border-radius:10px; text-align:center; padding: 5px;}
+    
+.newsletter-text{
+    font-size: 30px; 
+    color: white; 
+    margin-bottom: 30px;
+}
+.newsletter-textarea{
+    padding: 5px;
+border-radius: 5px;
+font-size: 30px;
+color: white;
+height: 30px;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 20px 20px;
+}
+.footer1{
+    padding: 20px;
+    background-size: 100px 100px;
+    background-color: rgb(15, 207, 15);
+    border-radius: 50%;
+
+}
+.footer-img{border-radius: 30%;}
+
+.hiddentext{
+    font-size: 20px;
+}
+.showtext{
+    display: none;
+    color: white;
+
+}
+    
