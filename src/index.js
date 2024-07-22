@@ -57,5 +57,7 @@ let Garden=document.getElementById("Garden");
 Garden.style.cursor = "pointer";
 Garden.addEventListener("mouseenter", hideli5)
 
+
+
 //Use JAva Script On SIgn Up PAge,prompt to alert for name on Contact PAge alert and newsletter
 // learn media query
