@@ -7,7 +7,6 @@ body {
 footer {
     display: flex;
     justify-content: space-around;
-    
     padding: 20px 20px;
 }
 .footer1{

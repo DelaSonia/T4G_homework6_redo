@@ -1,2 +1,4 @@
-let name = prompt ('Kindly tell us your name')
-alert(`Hi ${name} Kindly send us a message`);
+
+let name = prompt("Hello, what's your name?");
+  document.querySelector("ContactTitle");
+  ContactTitle.innerHTML = `Hi ${name || ""}, thanks for contacting us!`;
